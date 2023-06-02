@@ -29,3 +29,11 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
+
+//hamburger menu
+const hamburgerMenu = document.getElementById('hamburger-menu');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburgerMenu.addEventListener('click', function() {
+      navMenu.classList.toggle('open');
+    });

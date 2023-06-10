@@ -280,7 +280,7 @@ footer {
 
 .active,
 .collapsible:hover {
-  background-color: #45a049;
+  background-color: #94c425;
 }
 
 .content {
@@ -321,11 +321,11 @@ footer {
     height: 2px;
     background-color: #000;
   }
-  
+
   .nav-menu {
     display: none;
   }
-  
+
   .nav-menu.open {
     display: block;
   }
